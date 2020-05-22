@@ -15,6 +15,8 @@ class_names = []
 class_days = {}
 debug = True
 
+# source env/bin/activate
+
 def getHomework():
     global homework_data, class_names, class_days
     try:
@@ -307,8 +309,8 @@ def parse_date(date, day):
 
 def main():
     getHomework()
-    google_cal_init()
-    parse_dict(homework_data)
+    # google_cal_init()
+    # parse_dict(homework_data)
 
 
 if __name__ == '__main__':
