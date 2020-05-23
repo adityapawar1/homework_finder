@@ -28,7 +28,7 @@ def getHomework():
 
     password = input('Enter your password')
     if (len(password) == 0):
-        password = '***REMOVED***'
+        password = 'Nope'
 
     login = {
         'username': 'Aditya.Pawar',
