@@ -1,2 +1,2 @@
 # homework_finder
-Gets your homework lmao
+(used to) Get your homework lmao
